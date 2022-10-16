@@ -1,0 +1,17 @@
+form.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide__block{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+}
+.shown{
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    pointer-events: all;
+}
